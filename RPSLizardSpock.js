@@ -113,4 +113,5 @@ var compare = function(choice1, choice2) {
 }
 }
 };
-compare(userChoice, computerChoice);
+var result = compare(userChoice, computerChoice);
+confirm (result);
