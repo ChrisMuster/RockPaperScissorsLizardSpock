@@ -101,6 +101,9 @@ var compare = function(choice1, choice2) {
             } else {
                 return "Lizard wins, Lizard poisons Spock.";
             }
+            break;
+        default:
+            return "Error: " + choice1 + " is not a valid choice. Check spelling and try again.";
     }
 };
 
